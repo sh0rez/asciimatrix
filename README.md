@@ -1,7 +1,4 @@
-
-
 # asciimatrix
----
 `import "github.com/sh0rez/asciimatrix"`
 
 * [Overview](#pkg-overview)
@@ -42,14 +39,14 @@ This creates the following output:
 
 
 #### <a name="pkg-files">Package files</a>
-[asciimatrix.go](/src/github.com/sh0rez/asciimatrix/asciimatrix.go) 
+[asciimatrix.go](/asciimatrix.go) 
 
 
 
 
 
 
-## <a name="Matrix">type</a> [Matrix](/src/asciimatrix.go?s=684:702#L29)
+## <a name="Matrix">type</a> [Matrix](/asciimatrix.go?s=684:702#L29)
 ``` go
 type Matrix column
 ```
@@ -64,7 +61,7 @@ A Matrix contains strings addressed by x and y coordinates. They are mutated usi
 
 
 
-### <a name="Matrix.Put">func</a> (Matrix) [Put](/src/asciimatrix.go?s=888:930#L33)
+### <a name="Matrix.Put">func</a> (Matrix) [Put](/asciimatrix.go?s=888:930#L33)
 ``` go
 func (m Matrix) Put(x, y int, text string)
 ```
@@ -74,7 +71,7 @@ overwrite data. To remove data, overwrite it with whitespace.
 
 
 
-### <a name="Matrix.String">func</a> (Matrix) [String](/src/asciimatrix.go?s=1127:1158#L43)
+### <a name="Matrix.String">func</a> (Matrix) [String](/asciimatrix.go?s=1127:1158#L43)
 ``` go
 func (m Matrix) String() string
 ```
