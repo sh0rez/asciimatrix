@@ -1,4 +1,6 @@
 # asciimatrix
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsh0rez%2Fasciimatrix.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsh0rez%2Fasciimatrix?ref=badge_shield)
+
 `import "github.com/sh0rez/asciimatrix"`
 
 * [Overview](#pkg-overview)
@@ -76,3 +78,7 @@ overwrite data. To remove data, overwrite it with whitespace.
 func (m Matrix) String() string
 ```
 String renders the the data as a matrix. Empty addresses are filled with whitespace.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsh0rez%2Fasciimatrix.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsh0rez%2Fasciimatrix?ref=badge_large)
